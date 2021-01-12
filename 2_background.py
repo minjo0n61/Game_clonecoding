@@ -22,7 +22,7 @@ while running:
         if event.type == pygame.QUIT:  # 창이 닫히는 이벤트가 발생하였는가?
             running = False  # 게임이 진행중이 아님
 
-    #screen.fill((0, 0, 255))
+    # screen.fill((0, 0, 255)) 색 지정하여 채우는 것도 가능
     screen.blit(background, (0, 0))  # 배경 그리기
 
     pygame.display.update()  # 게임화면을 다시 그리기!
