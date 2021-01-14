@@ -38,7 +38,7 @@ character_speed = 0.6
 # 이벤트 루프
 running = True  # 게임이 진행중인가?
 while running:
-    dt = clock.tick(80)  # 게임화면의 초당 프레임 수를 설정
+    dt = clock.tick(60)  # 게임화면의 초당 프레임 수를 설정
 
     print("fps : " + str(clock.get_fps()))
 
